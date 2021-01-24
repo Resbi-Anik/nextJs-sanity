@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import sanityClient from "../client";
+import sanityClient from "../../client";
 
 function programs() {
   const [programs, setPrograms] = useState(null);

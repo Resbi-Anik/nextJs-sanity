@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import sanityClient from "../client";
+import sanityClient from "../../client";
 function gallery() {
   const [post, setPost] = useState(null);
   useEffect(() => {

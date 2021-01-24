@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import sanityClient from "../client";
+import sanityClient from "../../client";
 function news() {
   const [post, setPost] = useState(null);
   useEffect(() => {
